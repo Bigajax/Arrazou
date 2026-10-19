@@ -104,6 +104,17 @@ export default function Rodape() {
           <p>
             © {new Date().getFullYear()} {site.nome} — {site.cidade}/
             {site.estado}
+            <span className="mt-1.5 block">
+              vitrine por{" "}
+              <a
+                href="https://rafaelrazeira.com.br/vitrine-digital"
+                target="_blank"
+                rel="noopener"
+                className="underline-offset-2 hover:text-creme hover:underline"
+              >
+                Rafael Razeira Estúdio
+              </a>
+            </span>
           </p>
           <p className="font-display text-sm text-champanhe/80">
             Venha ArraZaaaa com a gente.
